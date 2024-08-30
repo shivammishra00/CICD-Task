@@ -7,7 +7,7 @@ app.get("/api/get", (req,res)=>{
     return res.json({Message: "CI/Cd integration"})
 })
 
-app.get("/api/get/get", (req,res)=>{
+app.get("/api/get/user", (req,res)=>{
     return res.json({name: "Shivam", email: "shivam@gmail.com", role: "admin"})
 })
 
